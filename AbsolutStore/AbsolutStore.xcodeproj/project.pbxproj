@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A78CF13C2B304C43004D0EAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78CF13B2B304C43004D0EAD /* AppDelegate.swift */; };
+		A78CF13E2B304C43004D0EAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78CF13D2B304C43004D0EAD /* SceneDelegate.swift */; };
+		A78CF1402B304C43004D0EAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78CF13F2B304C43004D0EAD /* ViewController.swift */; };
+		A78CF1432B304C43004D0EAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A78CF1412B304C43004D0EAD /* Main.storyboard */; };
+		A78CF1452B304C44004D0EAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A78CF1442B304C44004D0EAD /* Assets.xcassets */; };
+		A78CF1482B304C44004D0EAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A78CF1462B304C44004D0EAD /* LaunchScreen.storyboard */; };
+		A78CF1532B304C44004D0EAD /* AbsolutStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78CF1522B304C44004D0EAD /* AbsolutStoreTests.swift */; };
+		A78CF15D2B304C45004D0EAD /* AbsolutStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78CF15C2B304C45004D0EAD /* AbsolutStoreUITests.swift */; };
+		A78CF15F2B304C45004D0EAD /* AbsolutStoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78CF15E2B304C45004D0EAD /* AbsolutStoreUITestsLaunchTests.swift */; };
+		A78CF16C2B304CDE004D0EAD /* Absolut.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78CF16B2B304CDE004D0EAD /* Absolut.swift */; };
+		A78CF16E2B304CFF004D0EAD /* AbsolutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78CF16D2B304CFF004D0EAD /* AbsolutManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A78CF14F2B304C44004D0EAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A78CF1302B304C43004D0EAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A78CF1372B304C43004D0EAD;
+			remoteInfo = AbsolutStore;
+		};
+		A78CF1592B304C45004D0EAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A78CF1302B304C43004D0EAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A78CF1372B304C43004D0EAD;
+			remoteInfo = AbsolutStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A78CF1382B304C43004D0EAD /* AbsolutStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbsolutStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78CF13B2B304C43004D0EAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A78CF13D2B304C43004D0EAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A78CF13F2B304C43004D0EAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A78CF1422B304C43004D0EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A78CF1442B304C44004D0EAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A78CF1472B304C44004D0EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A78CF1492B304C44004D0EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A78CF14E2B304C44004D0EAD /* AbsolutStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbsolutStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78CF1522B304C44004D0EAD /* AbsolutStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsolutStoreTests.swift; sourceTree = "<group>"; };
+		A78CF1582B304C45004D0EAD /* AbsolutStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbsolutStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78CF15C2B304C45004D0EAD /* AbsolutStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsolutStoreUITests.swift; sourceTree = "<group>"; };
+		A78CF15E2B304C45004D0EAD /* AbsolutStoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsolutStoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A78CF16B2B304CDE004D0EAD /* Absolut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Absolut.swift; sourceTree = "<group>"; };
+		A78CF16D2B304CFF004D0EAD /* AbsolutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsolutManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A78CF1352B304C43004D0EAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78CF14B2B304C44004D0EAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78CF1552B304C45004D0EAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A78CF12F2B304C43004D0EAD = {
+			isa = PBXGroup;
+			children = (
+				A78CF13A2B304C43004D0EAD /* AbsolutStore */,
+				A78CF1512B304C44004D0EAD /* AbsolutStoreTests */,
+				A78CF15B2B304C45004D0EAD /* AbsolutStoreUITests */,
+				A78CF1392B304C43004D0EAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A78CF1392B304C43004D0EAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A78CF1382B304C43004D0EAD /* AbsolutStore.app */,
+				A78CF14E2B304C44004D0EAD /* AbsolutStoreTests.xctest */,
+				A78CF1582B304C45004D0EAD /* AbsolutStoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A78CF13A2B304C43004D0EAD /* AbsolutStore */ = {
+			isa = PBXGroup;
+			children = (
+				A78CF13B2B304C43004D0EAD /* AppDelegate.swift */,
+				A78CF13D2B304C43004D0EAD /* SceneDelegate.swift */,
+				A78CF13F2B304C43004D0EAD /* ViewController.swift */,
+				A78CF1412B304C43004D0EAD /* Main.storyboard */,
+				A78CF1442B304C44004D0EAD /* Assets.xcassets */,
+				A78CF1462B304C44004D0EAD /* LaunchScreen.storyboard */,
+				A78CF1492B304C44004D0EAD /* Info.plist */,
+				A78CF16B2B304CDE004D0EAD /* Absolut.swift */,
+				A78CF16D2B304CFF004D0EAD /* AbsolutManager.swift */,
+			);
+			path = AbsolutStore;
+			sourceTree = "<group>";
+		};
+		A78CF1512B304C44004D0EAD /* AbsolutStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				A78CF1522B304C44004D0EAD /* AbsolutStoreTests.swift */,
+			);
+			path = AbsolutStoreTests;
+			sourceTree = "<group>";
+		};
+		A78CF15B2B304C45004D0EAD /* AbsolutStoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A78CF15C2B304C45004D0EAD /* AbsolutStoreUITests.swift */,
+				A78CF15E2B304C45004D0EAD /* AbsolutStoreUITestsLaunchTests.swift */,
+			);
+			path = AbsolutStoreUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A78CF1372B304C43004D0EAD /* AbsolutStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A78CF1622B304C45004D0EAD /* Build configuration list for PBXNativeTarget "AbsolutStore" */;
+			buildPhases = (
+				A78CF1342B304C43004D0EAD /* Sources */,
+				A78CF1352B304C43004D0EAD /* Frameworks */,
+				A78CF1362B304C43004D0EAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AbsolutStore;
+			productName = AbsolutStore;
+			productReference = A78CF1382B304C43004D0EAD /* AbsolutStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A78CF14D2B304C44004D0EAD /* AbsolutStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A78CF1652B304C45004D0EAD /* Build configuration list for PBXNativeTarget "AbsolutStoreTests" */;
+			buildPhases = (
+				A78CF14A2B304C44004D0EAD /* Sources */,
+				A78CF14B2B304C44004D0EAD /* Frameworks */,
+				A78CF14C2B304C44004D0EAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A78CF1502B304C44004D0EAD /* PBXTargetDependency */,
+			);
+			name = AbsolutStoreTests;
+			productName = AbsolutStoreTests;
+			productReference = A78CF14E2B304C44004D0EAD /* AbsolutStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A78CF1572B304C45004D0EAD /* AbsolutStoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A78CF1682B304C45004D0EAD /* Build configuration list for PBXNativeTarget "AbsolutStoreUITests" */;
+			buildPhases = (
+				A78CF1542B304C45004D0EAD /* Sources */,
+				A78CF1552B304C45004D0EAD /* Frameworks */,
+				A78CF1562B304C45004D0EAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A78CF15A2B304C45004D0EAD /* PBXTargetDependency */,
+			);
+			name = AbsolutStoreUITests;
+			productName = AbsolutStoreUITests;
+			productReference = A78CF1582B304C45004D0EAD /* AbsolutStoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A78CF1302B304C43004D0EAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A78CF1372B304C43004D0EAD = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					A78CF14D2B304C44004D0EAD = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = A78CF1372B304C43004D0EAD;
+					};
+					A78CF1572B304C45004D0EAD = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = A78CF1372B304C43004D0EAD;
+					};
+				};
+			};
+			buildConfigurationList = A78CF1332B304C43004D0EAD /* Build configuration list for PBXProject "AbsolutStore" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A78CF12F2B304C43004D0EAD;
+			productRefGroup = A78CF1392B304C43004D0EAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A78CF1372B304C43004D0EAD /* AbsolutStore */,
+				A78CF14D2B304C44004D0EAD /* AbsolutStoreTests */,
+				A78CF1572B304C45004D0EAD /* AbsolutStoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A78CF1362B304C43004D0EAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78CF1482B304C44004D0EAD /* LaunchScreen.storyboard in Resources */,
+				A78CF1452B304C44004D0EAD /* Assets.xcassets in Resources */,
+				A78CF1432B304C43004D0EAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78CF14C2B304C44004D0EAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78CF1562B304C45004D0EAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A78CF1342B304C43004D0EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78CF16E2B304CFF004D0EAD /* AbsolutManager.swift in Sources */,
+				A78CF1402B304C43004D0EAD /* ViewController.swift in Sources */,
+				A78CF13C2B304C43004D0EAD /* AppDelegate.swift in Sources */,
+				A78CF16C2B304CDE004D0EAD /* Absolut.swift in Sources */,
+				A78CF13E2B304C43004D0EAD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78CF14A2B304C44004D0EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78CF1532B304C44004D0EAD /* AbsolutStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78CF1542B304C45004D0EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78CF15D2B304C45004D0EAD /* AbsolutStoreUITests.swift in Sources */,
+				A78CF15F2B304C45004D0EAD /* AbsolutStoreUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A78CF1502B304C44004D0EAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A78CF1372B304C43004D0EAD /* AbsolutStore */;
+			targetProxy = A78CF14F2B304C44004D0EAD /* PBXContainerItemProxy */;
+		};
+		A78CF15A2B304C45004D0EAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A78CF1372B304C43004D0EAD /* AbsolutStore */;
+			targetProxy = A78CF1592B304C45004D0EAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A78CF1412B304C43004D0EAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A78CF1422B304C43004D0EAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A78CF1462B304C44004D0EAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A78CF1472B304C44004D0EAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A78CF1602B304C45004D0EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A78CF1612B304C45004D0EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A78CF1632B304C45004D0EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AbsolutStore/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tms.AbsolutStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A78CF1642B304C45004D0EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AbsolutStore/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tms.AbsolutStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A78CF1662B304C45004D0EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tms.AbsolutStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AbsolutStore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AbsolutStore";
+			};
+			name = Debug;
+		};
+		A78CF1672B304C45004D0EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tms.AbsolutStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AbsolutStore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AbsolutStore";
+			};
+			name = Release;
+		};
+		A78CF1692B304C45004D0EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tms.AbsolutStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AbsolutStore;
+			};
+			name = Debug;
+		};
+		A78CF16A2B304C45004D0EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tms.AbsolutStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AbsolutStore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A78CF1332B304C43004D0EAD /* Build configuration list for PBXProject "AbsolutStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78CF1602B304C45004D0EAD /* Debug */,
+				A78CF1612B304C45004D0EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A78CF1622B304C45004D0EAD /* Build configuration list for PBXNativeTarget "AbsolutStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78CF1632B304C45004D0EAD /* Debug */,
+				A78CF1642B304C45004D0EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A78CF1652B304C45004D0EAD /* Build configuration list for PBXNativeTarget "AbsolutStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78CF1662B304C45004D0EAD /* Debug */,
+				A78CF1672B304C45004D0EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A78CF1682B304C45004D0EAD /* Build configuration list for PBXNativeTarget "AbsolutStoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78CF1692B304C45004D0EAD /* Debug */,
+				A78CF16A2B304C45004D0EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A78CF1302B304C43004D0EAD /* Project object */;
+}
